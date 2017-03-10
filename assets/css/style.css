@@ -24,7 +24,14 @@ a:hover {
 }
 
 .menu-text {
-  font-size: 14px !important;  
+  font-size: 14px !important;
+}
+.menu-text-mobile {
+  font-size: 28px !important;
+}
+
+.test {
+  font-size: 7.5em !important;
 }
 
 .justify {

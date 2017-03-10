@@ -5,10 +5,16 @@
  *
  * Made By MaterializeCSS.com
  */
-
  body {
    background-color: #f9fbe7;
+   display: flex;
+   min-height: 100vh;
+   flex-direction: column;
  }
+
+main {
+  flex: 1 0 auto;
+}
 
 a {
   color: teal;
@@ -17,14 +23,31 @@ a:hover {
   color: brown;
 }
 
- .home {
-   padding-top: 10%;
-   text-align: center;
- }
+.menu-text {
+  font-size: 14px !important;  
+}
+
+.justify {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.home-button {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.post-list {
+  margin-top: 20%;
+}
 
 .home-title {
-  /*font-family: 'Alfa Slab One', cursive;*/
-font-family: 'Pacifico', cursive;
+  font-family: 'Pacifico', cursive;
+  font-size: 5.5em;
+  text-shadow: 2px 2px 0px #555;
+}
+.blog-title {
+  font-weight: bold;
   font-size: 5.5em;
   text-shadow: 2px 2px 0px #555;
 }
@@ -34,10 +57,4 @@ font-family: 'Pacifico', cursive;
 }
 .icon-block .material-icons {
 	font-size: inherit;
-}
-
-footer.page-footer {
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
 }

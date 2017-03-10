@@ -2,15 +2,3 @@
 layout: page
 title: Web Apps
 ---
-<div>
-  <p>Os dados são tratados utilizando <a href = "https://www.python.org/">Python</a> e a biblioteca <a href = "http://pandas.pydata.org/">Pandas</a></p>
-  <p>As visualizações são criadas utilizando <a href="https://plot.ly/">plot.ly</a> e <a href = "http://jupyter.org/">Jupyter Notebooks</a></p>
-</div>
-<ul>
-  {% for post in site.tags.Data %}
-  <li>
-    <h4><a href="{{post.url}}">{{ post.title }}</a></h4>
-    <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-  </li>
-  {% endfor %}
-</ul>

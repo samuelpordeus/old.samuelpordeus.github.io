@@ -1,0 +1,43 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+ body {
+   background-color: #f9fbe7;
+ }
+
+a {
+  color: teal;
+}
+a:hover {
+  color: brown;
+}
+
+ .home {
+   padding-top: 10%;
+   text-align: center;
+ }
+
+.home-title {
+  /*font-family: 'Alfa Slab One', cursive;*/
+font-family: 'Pacifico', cursive;
+  font-size: 5.5em;
+  text-shadow: 2px 2px 0px #555;
+}
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+
+footer.page-footer {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}

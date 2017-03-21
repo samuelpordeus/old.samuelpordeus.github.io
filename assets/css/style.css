@@ -39,11 +39,6 @@ a:hover {
   text-justify: inter-word;
 }
 
-.home-button {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
 .post-list {
   margin-top: 20%;
 }
@@ -53,6 +48,24 @@ a:hover {
   font-size: 5.5em;
   text-shadow: 2px 2px 0px #555;
 }
+.home-icons {
+  font-size: 1.2em;
+}
+.middle {
+   width: Xu;
+   height: Yu;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   margin-left: -(X/2)u;
+   margin-top: -(Y/2)u;
+}
+.img-circle {
+    border-radius: 50%;
+    max-height: 50%;
+    max-width: 50%;
+}
+
 .blog-title {
   font-weight: bold;
   font-size: 5.5em;
@@ -61,6 +74,9 @@ a:hover {
 
 .icon-block {
   padding: 0 15px;
+  margin-top: -20%;
+  margin-bottom: -25%;
+  text-shadow: 1px 1px 1px #FFF;
 }
 .icon-block .material-icons {
 	font-size: inherit;

@@ -3,10 +3,8 @@ layout: default
 ---
   {{ content }}
   <h1 class = "teal-text text-lighten-2 blog-title">Blog</h1>
-  <div class="row center">
-    <h4 class="justify col s12 light">Most of the posts are written in portuguese. Data demonstrations are made with Jupyter Notebooks.</h4>
-  </div>
     {% for post in site.posts %}
         <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
+        <h5 class = "light">{{ post.subtitle | escape }}</h5>
         <span>{{ post.date | date: "%b %-d, %Y" }}</span> - <span class="post-meta">{{post.tags}}</span>
     {% endfor %}

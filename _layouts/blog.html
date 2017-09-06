@@ -4,7 +4,7 @@ layout: default
   {{ content }}
   <h1 class = "teal-text text-lighten-2 blog-title">Blog</h1>
     {% for post in site.posts %}
-        <h4><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h4>
-        <h5 class = "light">{{ post.subtitle | escape }}</h5>
+        <h5><a href="{{ post.url | relative_url }}">{{ post.title | escape }}</a></h5>
+        <h6 class = "light">{{ post.subtitle | escape }}</h6>
         <span>{{ post.date | date: "%b %-d, %Y" }}</span> - <span class="post-meta">{{post.tags}}</span>
     {% endfor %}
